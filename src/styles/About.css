@@ -1,0 +1,57 @@
+.about-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .about-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .about-section {
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    color: #3498db;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .about-section p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-section ul {
+    padding-left: 1.5rem;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
